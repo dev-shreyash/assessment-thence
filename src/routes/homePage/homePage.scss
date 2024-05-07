@@ -1,0 +1,32 @@
+.homepage{
+    display: flex;
+    height: 100%;
+    overflow-y: scroll;
+    justify-content: center;
+
+    .wrapper {
+        margin-top: 5rem;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        align-items: center;
+        gap: 50px;
+        height: 100%;
+        flex-wrap: wrap;
+        overflow-y: scroll;
+
+
+        .heading{
+            font-size: 1.7rem;
+            font-weight: 600;
+            max-width: 300px;
+
+
+            span{
+                color: #38c700;
+                font-weight: 100;
+
+            }
+        }
+    }  
+}
