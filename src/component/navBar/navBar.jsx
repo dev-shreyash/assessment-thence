@@ -15,7 +15,7 @@ function NavBar(){
                 </Link>
 
                 <Link>
-                        <span> OnBoard Talent</span>
+                        <span className="btn2"> Onboard Talent</span>
 
                 </Link>
         </div>

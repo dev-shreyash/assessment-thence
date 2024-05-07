@@ -28,6 +28,8 @@ nav {
 
 
         }
+
+        
     }
 
 
@@ -54,13 +56,20 @@ nav {
       justify-content: flex-end;
       //background-color: #ffffff00;
       height: 100%;
+      
+      
 
 
       a {
      
         padding: 12px 24px;
         margin: 20px;
-
+       
+      
+        .btn2{
+          color: white;
+          background-color: #000000da;
+        }
         span{
           border-radius: 35px;
           padding: 20px;
@@ -68,6 +77,9 @@ nav {
           border: 2px solid black;
           font-size: 1.4rem;
           color: #000000;
+          
+          
+         
         }
       }
 
