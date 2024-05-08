@@ -30,21 +30,14 @@ npm install
 npm run dev
 
 ```
-## Contributing
-
-Contributions are always welcome!
-
-See `contributing.md` for ways to get started.
-
-Please adhere to this project's `code of conduct`.
 
 
 
 ## Authors
 
-- [dev-shreyash](https://www.github.com/dev-shreyash)
+- GitHub: [dev-shreyash bhosale](https://github.com/dev-shreyash)
 
 ## Contact
 
-- [LinkedIn](https://www.linkedin.com/in/bhosaleshreyash2/
+- LinkedIn: [Shreyash Bhosale](https://www.linkedin.com/in/bhosaleshreyash2)
 
