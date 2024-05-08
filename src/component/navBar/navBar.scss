@@ -14,6 +14,8 @@ nav {
    
     @include sm{
       flex-direction: column;
+       justify-content: center;
+      align-items: center;
         height: 100%;
         
     }
@@ -41,7 +43,7 @@ nav {
     
         .logo {
           font-weight: bold;
-          font-size: 30px;
+          font-size: 40px;
           display: flex;
           align-items: center;
           gap: 10px;
@@ -69,6 +71,10 @@ nav {
         .btn2{
           color: white;
           background-color: #000000da;
+          &:hover{
+            background-color: #000000b0;
+            border: none;
+          }
         }
         span{
           border-radius: 35px;
@@ -78,7 +84,10 @@ nav {
           font-size: 1.4rem;
           color: #000000;
           
-          
+          &:hover{
+            background-color: #3b36362f;
+            //border: none;
+          }
          
         }
       }

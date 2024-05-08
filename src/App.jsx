@@ -18,7 +18,7 @@ function App() {
         element:<Homepage/>
       },
       {
-        path:"/formPage",
+        path:"/formpage",
         element:<FormPage/>
       },
       {

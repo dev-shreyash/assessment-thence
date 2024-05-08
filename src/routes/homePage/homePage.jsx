@@ -1,8 +1,10 @@
+/* eslint-disable react/no-unescaped-entities */
 import { Link } from 'react-router-dom';
 import Caraousel from '../../component/carousel/caraousel'
 import './homePage.scss'
 import FaqList from '../../component/faqList/faqList';
 import Footer from '../../component/footer/footer';
+import NavBar from '../../component/navBar/navBar';
 
 function Homepage(){
 
@@ -15,6 +17,9 @@ function Homepage(){
 ];
   return (
     <div className='homepage'>
+       <div className="navbar">
+        <NavBar />
+      </div>
       <div className="wrapper">
       <div className="heading">
         <span className='fancy-text'>success stories</span>
