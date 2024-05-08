@@ -20,7 +20,7 @@ Instructions on setting up the project locally. This should include steps to ins
 
 ```bash
 # Clone the repository
-git clone https://github.com/yourusername/yourprojectname.git
+git clone https://github.com/dev-shreyash/assessment-thence.git
 cd yourprojectname
 
 # Install dependencies
