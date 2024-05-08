@@ -97,6 +97,14 @@
                     border-radius: 30px;
                     font-size: 14px;
                     text-align: left;
+                    transition: transform 1s ease-out, opacity 1s ease-out, color 1s ease-out;
+
+                    &:hover{
+                        cursor: pointer;
+                        scale: 1.02;
+                         opacity: 0.8;
+                         color: #000;
+                    }
 
                     span{
                         align-items: start;

@@ -27,6 +27,8 @@
             color: #fff;
             background-color: #000;
             cursor: pointer;
+            transition: transform 1s ease-out, opacity 1s ease-out, color 1s ease-out;
+
             &:hover{
                 background-color: #000000b0;
                 border: none;

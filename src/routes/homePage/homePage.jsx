@@ -6,6 +6,8 @@ import FaqList from '../../component/faqList/faqList';
 import Footer from '../../component/footer/footer';
 import NavBar from '../../component/navBar/navBar';
 
+
+
 function Homepage(){
 
   const data = [
@@ -15,6 +17,8 @@ function Homepage(){
     "Contact us for more information. In simple way by just cliking one button.",
 
 ];
+
+
   return (
     <div className='homepage'>
        <div className="navbar">

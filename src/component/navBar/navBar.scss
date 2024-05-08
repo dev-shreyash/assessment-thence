@@ -66,6 +66,9 @@ nav {
      
         padding: 12px 24px;
         margin: 20px;
+        
+        transition: transform 1s ease-out, opacity 1s ease-out, color 1s ease-out;
+
        
       
         .btn2{
