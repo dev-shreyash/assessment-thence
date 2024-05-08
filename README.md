@@ -1,8 +1,50 @@
-# React + Vite
+# React Frontend 
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+This project is designed to demonstrate my frontend skills using React.
 
-Currently, two official plugins are available:
+## Technologies Used
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+- **React**: A JavaScript library for building user interfaces.
+- **Vite**: Next-generation frontend tooling.
+- **React Router DOM**: Handles routing.
+- **SCSS**: Enhances CSS with features like variables, nested rules, and mixins.
+
+## Project Structure
+
+The project structure follows industry standards with reusable components and well-defined routes.
+
+
+## Installation
+
+Instructions on setting up the project locally. This should include steps to install all necessary dependencies.
+
+```bash
+# Clone the repository
+git clone https://github.com/yourusername/yourprojectname.git
+cd yourprojectname
+
+# Install dependencies
+npm install
+
+# Start the development server
+npm run dev
+
+```
+## Contributing
+
+Contributions are always welcome!
+
+See `contributing.md` for ways to get started.
+
+Please adhere to this project's `code of conduct`.
+
+
+
+## Authors
+
+- [dev-shreyash](https://www.github.com/dev-shreyash)
+
+## Contact
+
+- [LinkedIn](https://www.linkedin.com/in/bhosaleshreyash2/
+
