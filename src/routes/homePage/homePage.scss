@@ -3,17 +3,22 @@
     height: 100%;
     overflow-y: scroll;
     justify-content: center;
+    flex-direction: column;
+    .fancy-text{
+        color: #38c700;
+        font-weight: 100;
+    }
 
     .wrapper {
-        margin-top: 5rem;
+        margin-top:0;
         display: flex;
         flex-direction: column;
         justify-content: space-between;
         align-items: center;
         gap: 50px;
         height: 100%;
-        flex-wrap: wrap;
         overflow-y: scroll;
+        padding-top: 20px;
 
 
         .heading{
@@ -23,8 +28,7 @@
 
 
             span{
-                color: #38c700;
-                font-weight: 100;
+               
 
             }
         }
@@ -201,6 +205,31 @@
                     }
                 }
             }
+        }
+
+        .wrapper-3{
+            padding: 60px;
+            display: flex;
+            background-color: #0e0d0d21;
+            height: 100% ;
+            width: 90%;
+            gap: 90px;
+            border-radius: 40px;
+
+
+            .rightSide{
+                flex: 1;
+                h1{
+                    font-size: 40px;
+                    font-weight: 600;
+                }
+            }
+
+            .faq{
+                flex: 2;
+
+            }
+
         }
     }  
 }

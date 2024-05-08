@@ -1,0 +1,33 @@
+
+
+.faq-item {
+    margin-bottom: 10px;
+    border-bottom: 1px solid #ccc;
+
+
+    .faq-question {
+        display: flex;
+        cursor: pointer;
+        padding: 10px;
+        font-weight: bold;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        text-align: left;
+        flex: 1;
+        gap: 100px;
+
+        
+    }
+
+
+    .faq-answer {
+        padding: 10px;
+        color: #666;
+        text-align: left;
+    }
+}
+
+
+
+

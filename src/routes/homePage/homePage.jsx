@@ -1,6 +1,8 @@
 import { Link } from 'react-router-dom';
 import Caraousel from '../../component/carousel/caraousel'
 import './homePage.scss'
+import FaqList from '../../component/faqList/faqList';
+import Footer from '../../component/footer/footer';
 
 function Homepage(){
 
@@ -15,10 +17,10 @@ function Homepage(){
     <div className='homepage'>
       <div className="wrapper">
       <div className="heading">
-        <span>success stories</span>
+        <span className='fancy-text'>success stories</span>
         <p>
           Every success journey
-          we`ve encountered
+          we've encountered
         </p>
       </div>
       <div className="wrapper-2">
@@ -70,12 +72,17 @@ function Homepage(){
 
 
       </div>
-      <div className="faq">
+      <div className="wrapper-3">
+        <div className="rightSide">
+          <span className='fancy-text'>Whats on your Mind?</span>
+          <h1>Ask Questions</h1>
+        </div>
+        <div className="faq">
+        <FaqList/>
+        </div>
 
       </div>
-      <div className="footer">
-
-      </div>
+       <Footer/>
       </div>
      
     </div>
