@@ -10,6 +10,14 @@
   display: flex;
   flex-direction: column;
   //border-bottom: 15px solid teal;
+  .fancy-text{
+    font-family: "Shadows Into Light", cursive;
+    font-weight: 600;
+    font-style: italic;
+    color: #38c700;
+    font-size: 35px;
+    font-synthesis-style:auto;
+}
   @include lg {
     max-width: 1480px;
   }

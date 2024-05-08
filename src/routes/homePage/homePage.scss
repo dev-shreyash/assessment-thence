@@ -1,14 +1,11 @@
+
 .homepage{
     display: flex;
     height: 100%;
     overflow-y: scroll;
     justify-content: center;
     flex-direction: column;
-    .fancy-text{
-        color: #38c700;
-        font-weight: 100;
-    }
-
+   
     .wrapper {
         margin-top:0;
         display: flex;
@@ -28,7 +25,8 @@
 
 
             span{
-               
+                font-size: 40px;
+
 
             }
         }

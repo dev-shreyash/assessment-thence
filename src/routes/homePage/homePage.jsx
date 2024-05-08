@@ -79,7 +79,7 @@ function Homepage(){
       </div>
       <div className="wrapper-3">
         <div className="rightSide">
-          <span className='fancy-text'>Whats on your Mind?</span>
+          <span className='fancy-text'>Whats on your mind?</span>
           <h1>Ask Questions</h1>
         </div>
         <div className="faq">
