@@ -48,7 +48,7 @@ function SuccessMessagePage() {
           </div>
         </div>
         <div className="bottom">
-          <p>Redirecting you to the Homepage in <span>{count} Seconds</span></p>
+          <p>Redirecting you to the homepage in <span>{count} Seconds</span></p>
         </div>
         </div>
        

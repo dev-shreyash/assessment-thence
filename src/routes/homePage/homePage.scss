@@ -160,6 +160,7 @@
                     &:nth-child(4) { 
                         // Card 3
                        // padding: ;
+                        align-items: start;
                         height: 170px;
                         width: 230px;
                         display: flex;
@@ -171,18 +172,19 @@
                         .text{
                             padding: 0;
                             display: flex;
-                            align-items: center;
+                            //align-items: center;
                            // text-align: start;
                            // margin-left: 0;
-                            gap: 10px;
+                            gap: 6px;
                             flex-direction: row;
                             display: flex;
+                            align-items: flex-end;
+
                             
 
                             p{
+                                padding-bottom: 7px;
                                 color: rgba(255, 255, 255, 0.575);
-                                margin-bottom: 0;
-                                margin: auto;
                             }
 
                             span{
@@ -233,7 +235,7 @@
             .rightSide{
                 flex: 1;
                 h1{
-                    font-size: 40px;
+                    font-size: 30px;
                     font-weight: 600;
                 }
             }
