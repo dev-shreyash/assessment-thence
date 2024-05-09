@@ -3,7 +3,7 @@ import { createBrowserRouter, RouterProvider } from "react-router-dom";
 import { Layout } from './routes/Layout/layout.jsx';
 import FormPage from './routes/formPage/formPage.jsx';
 import SuccessMessagePage from './routes/successMessagePage/successMessagePage';
-import Homepage from './routes/homePage/homePage';
+import Homepage from './routes/homePage/homePage.jsx';
 
 
 function App() {

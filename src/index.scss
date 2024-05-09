@@ -28,10 +28,13 @@ html, body {
 
 body {
     position: relative; /* Ensure relative positioning */
-    min-height: 100vh; /* Ensure body covers the entire viewport height */
+    min-height: 100vh;
+    width: 100%; 
 }
 
 #root {
+    padding:15px 0 15px 0;
     overflow-x: hidden; /* Hide any overflow from the root element */
-    min-height: 100vh; /* Ensure root element covers the entire viewport height */
+    min-height: 100vh; 
+    width: 100% ;
 }

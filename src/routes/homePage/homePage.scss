@@ -1,3 +1,4 @@
+@import '../../responsive.scss';
 
 .homepage{
     display: flex;
@@ -5,6 +6,12 @@
     overflow-y: scroll;
     justify-content: center;
     flex-direction: column;
+
+    @include sm{
+        padding: 0 5px;
+    }
+
+   
    
     .wrapper {
         margin-top:0;
@@ -16,6 +23,9 @@
         height: 100%;
         overflow-y: scroll;
         padding-top: 20px;
+        
+
+      
 
 
         .heading{
@@ -38,6 +48,11 @@
             flex-direction: row;
             width: 100%;
             gap: 60px;
+
+            @include sm{
+                flex-direction: column;
+                gap: 20px;
+            }
 
             .textCaraousel{
                 display: flex;
@@ -81,6 +96,10 @@
                 width: 650px;
                 position: relative;
 
+                @include sm{
+                    height: 400px;
+                    width: 400px;
+                }
 
                 .card {
                     display: flex;
@@ -121,6 +140,25 @@
                         top: 70px;
                         left: 30px;
                         height: 150px;
+
+                        @include sm{
+                            height: 100px;
+                            width: 150px;
+                            font-size: 12px;
+                            top: 70px;
+                            left: 2px;
+                            padding: 10px;
+
+                            span{
+                                font-size: 20px;
+                                padding: 4px 0 0 10px;                            }
+                        }
+
+                        p{
+                            @include sm{
+                                padding: 0 10px;
+                            }
+                        }
                     }
             
                     &:nth-child(3) { 
@@ -130,7 +168,22 @@
                         height: 70px;
                         width: 230px;
                         flex-direction: row;   
-                        gap: 10px;           
+                        gap: 10px;          
+                        
+                        @include sm{
+                            height: 50px;
+                            font-size: 12px;
+                            top: 230px;
+                            left: 3px;
+                            width: 180px;
+                            gap: 0;
+                            padding: 10px;
+                         
+
+                            span{
+                                font-size: 20px;
+                            }
+                        }
 
                        
 
@@ -169,6 +222,19 @@
                         right: 30px;
                         background: rgb(0, 51, 27);
                         color: rgba(255, 255, 255, 0.918);
+
+                        @include sm{
+                            height: 100px;
+                            width: 150px;
+                            font-size: 12px;
+                            bottom: 47px;
+                            right: 30px;
+                            padding: 20px;
+
+                            span{
+                                font-size: 20px;
+                            }
+                        }
                         .text{
                             padding: 0;
                             display: flex;
@@ -180,11 +246,15 @@
                             display: flex;
                             align-items: flex-end;
 
+                           
                             
 
                             p{
                                 padding-bottom: 7px;
                                 color: rgba(255, 255, 255, 0.575);
+                                @include sm{
+                                    font-size: 12px;
+                                }
                             }
 
                             span{
@@ -194,6 +264,9 @@
                              margin-left: 0;
                                 font-size: 39px;
                                 color: #ffffff;
+                                @include sm{
+                                    font-size: 24px;
+                                }
                             }
                         }
                     }
@@ -207,7 +280,10 @@
                     margin: auto; 
                     position: relative;
 
-
+                    @include sm{
+                        width: 280px;  
+                        height: 320px;
+                    }
                    
 
 
@@ -230,6 +306,12 @@
             width: 90%;
             gap: 90px;
             border-radius: 40px;
+
+            @include sm{
+                flex-direction: column;
+                padding: 20px;
+                gap: 20px;
+            }
 
 
             .rightSide{
